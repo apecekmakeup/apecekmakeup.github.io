@@ -83,13 +83,18 @@ upewnić się, że fotografowie sesyjni zgadzają się na ich użycie na stronie
 
 ## Hosting
 
-Strona jest live na GitHub Pages: **https://szymonsmykala.github.io/apecek-makeup/**
+Strona jest live na GitHub Pages: **https://apecekmakeup.github.io/**
 
-Repo: `SzymonSmykala/apecek-makeup` (publiczne), Pages serwuje gałąź `main` z katalogu `/`.
+Repo: `apecekmakeup/apecekmakeup.github.io` (publiczne, osobna organizacja GitHub),
+Pages serwuje gałąź `main` z katalogu `/`.
 Plik `.nojekyll` wyłącza przetwarzanie przez Jekyll — pliki idą na serwer bez zmian.
 
 Każdy push do `main` publikuje się automatycznie (budowanie trwa kilkadziesiąt sekund).
 Kolejne zmiany rób na osobnym branchu i przez PR do `main`, tak jak w pozostałych repo.
+
+Adres bierze się z nazwy organizacji: repo `<nazwa>/<nazwa>.github.io` jest serwowane
+pod `https://<nazwa>.github.io/`. Dlatego strona ma własny adres, a nie podkatalog
+w portfolio Szymona — konto osobiste może mieć tylko jedno repo typu *user pages*.
 
 Wszystkie ścieżki w `index.html` są względne, więc strona działa też w podkatalogu
 albo po przeniesieniu na inny hosting (Netlify, Vercel, FTP). Absolutne są tylko adresy
