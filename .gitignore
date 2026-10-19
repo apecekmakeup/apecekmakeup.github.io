@@ -1,0 +1,6 @@
+.DS_Store
+
+# Rozmyte tło hero — zdjęcie konkretnej klientki, obecnie nieużywane na stronie.
+# Trzymane tylko lokalnie, żeby nie trafiło do publicznego repo.
+# Regeneracja ze źródła: patrz sekcja „Tło hero" w README.md
+assets/img/hero-blur.jpg
