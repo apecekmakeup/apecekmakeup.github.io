@@ -28,6 +28,7 @@
   "name": "Aleksandra Pęcek — Makijaż",
   "description": "Makijaż ślubny, okolicznościowy i do sesji zdjęciowych.",
   "image": "https://apecekmakeup.github.io/assets/img/profile.jpg",
+  "email": "aleksandra.pecek01@gmail.com",
   "areaServed": "Kraków",
   "address": { "@type": "PostalAddress", "addressLocality": "Kraków", "addressCountry": "PL" },
   "url": "https://apecekmakeup.github.io/",
@@ -290,7 +291,7 @@
             <li>Konsultacja i dobór looku</li>
             <li>Pielęgnacyjne przygotowanie skóry</li>
             <li>Rzęsy w kępkach lub pasek</li>
-            <li>Czas: ok. 60–75 min</li>
+            <li>Czas: około 1,5 godziny</li>
           </ul>
           <a href="#kontakt" class="btn btn--outline">Zapytaj o termin</a>
         </article>
@@ -298,7 +299,8 @@
         <article class="plan plan--featured reveal">
           <span class="plan__tag">Najczęściej wybierane</span>
           <h3>Pakiet ślubny</h3>
-          <p class="plan__price">od <strong>450</strong> zł</p>
+          <p class="plan__price">od <strong>500</strong> zł</p>
+          <p class="plan__note">za jedną osobę · każda kolejna +200 zł</p>
           <ul>
             <li>Makijaż próbny przed ślubem</li>
             <li>Makijaż w dniu ślubu</li>
@@ -322,7 +324,7 @@
       </div>
 
       <p class="pricing__note reveal">
-        <!-- TODO: podmień kwoty na swoje realne stawki przed publikacją -->
+        <!-- TODO: kwota przy makijażu okolicznościowym (200 zł) jest nadal przykładowa -->
         Ceny mają charakter orientacyjny i nie stanowią oferty handlowej.
       </p>
     </div>
@@ -405,73 +407,41 @@
 
   <!-- ============ KONTAKT ============ -->
   <section class="section contact" id="kontakt">
-    <div class="wrap contact__grid">
-      <div class="contact__intro reveal">
-        <p class="eyebrow">Kontakt</p>
-        <h2>Zarezerwuj <span class="script">wizytę</span></h2>
-        <p class="lead">
-          Napisz, na jaką okazję potrzebujesz makijażu i kiedy — odpowiem z dostępnymi terminami
-          i wyceną. Najszybciej odpisuję w wiadomości prywatnej na Instagramie.
-        </p>
+    <div class="wrap wrap--narrow contact__inner">
+      <p class="eyebrow reveal">Kontakt</p>
+      <h2 class="reveal">Zarezerwuj <span class="script">wizytę</span></h2>
+      <p class="lead reveal">
+        Napisz, na jaką okazję potrzebujesz makijażu i kiedy — odpowiem z dostępnymi terminami
+        i wyceną. Najszybciej odpisuję w wiadomości prywatnej na Instagramie.
+      </p>
 
-        <ul class="contact__list">
-          <li>
-            <span class="ci">◈</span>
-            <div><strong>Instagram — DM</strong>
-              <a href="https://www.instagram.com/apecek.makeup/" target="_blank" rel="noopener">@apecek.makeup</a></div>
-          </li>
-          <li>
-            <span class="ci">◈</span>
-            <div><strong>Obszar działania</strong><span>Kraków i okolice · dojazd na miejsce</span></div>
-          </li>
-          <li>
-            <span class="ci">◈</span>
-            <div><strong>Godziny</strong><span>pon.–sob. · terminy ślubne również wcześnie rano</span></div>
-          </li>
-        </ul>
-
-        <a href="https://www.instagram.com/apecek.makeup/" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
-          Napisz na Instagramie
-        </a>
+      <div class="contact__cta reveal">
+        <a href="https://www.instagram.com/apecek.makeup/" target="_blank" rel="noopener"
+           class="btn btn--primary btn--lg">Napisz na Instagramie</a>
+        <a href="mailto:aleksandra.pecek01@gmail.com?subject=Zapytanie%20o%20termin"
+           class="btn btn--outline btn--lg">Wyślij e-mail</a>
       </div>
 
-      <form class="contact__form reveal" id="bookForm" novalidate>
-        <h3>Formularz zapytania</h3>
-
-        <label>Imię i nazwisko
-          <input type="text" name="imie" required placeholder="Jak się do Ciebie zwracać?">
-        </label>
-
-        <label>E-mail lub telefon
-          <input type="text" name="kontakt" required placeholder="np. ola@example.com">
-        </label>
-
-        <div class="row">
-          <label>Rodzaj makijażu
-            <select name="usluga">
-              <option>Makijaż ślubny</option>
-              <option>Makijaż okolicznościowy</option>
-              <option>Makijaż do sesji</option>
-              <option>Konsultacja / nauka makijażu</option>
-            </select>
-          </label>
-          <label>Data wydarzenia
-            <input type="date" name="data">
-          </label>
-        </div>
-
-        <label>Wiadomość
-          <textarea name="wiadomosc" rows="4" placeholder="Napisz kilka słów o okazji, stylizacji i miejscu."></textarea>
-        </label>
-
-        <button type="submit" class="btn btn--primary btn--block">Wyślij zapytanie</button>
-        <p class="form__hint" id="formHint" role="status"></p>
-        <!--
-          Formularz otwiera domyślnego klienta poczty (mailto).
-          Aby wysyłał zapytania automatycznie, podłącz usługę typu Formspree/Netlify Forms
-          i podmień obsługę w assets/js/main.js (funkcja handleSubmit).
-        -->
-      </form>
+      <ul class="contact__list reveal">
+        <li>
+          <span class="ci">◈</span>
+          <div><strong>E-mail</strong>
+            <a href="mailto:aleksandra.pecek01@gmail.com">aleksandra.pecek01@gmail.com</a></div>
+        </li>
+        <li>
+          <span class="ci">◈</span>
+          <div><strong>Instagram — DM</strong>
+            <a href="https://www.instagram.com/apecek.makeup/" target="_blank" rel="noopener">@apecek.makeup</a></div>
+        </li>
+        <li>
+          <span class="ci">◈</span>
+          <div><strong>Obszar działania</strong><span>Kraków i okolice · dojazd na miejsce</span></div>
+        </li>
+        <li>
+          <span class="ci">◈</span>
+          <div><strong>Godziny</strong><span>pon.–sob. · terminy ślubne również wcześnie rano</span></div>
+        </li>
+      </ul>
     </div>
   </section>
 
