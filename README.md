@@ -44,12 +44,12 @@ Zmiana odcienia = podmiana tych zmiennych, reszta strony dostosuje się sama.
 
 ## Do uzupełnienia przed publikacją
 
-1. **Opinie** (`index.html`, sekcja `#opinie`) — jest jedna prawdziwa opinia
-   z wiadomości prywatnej, podpisana „Klientka · wiadomość prywatna". Jeśli autorka
-   się zgodzi, warto podmienić podpis na imię i rodzaj makijażu — opinia z imieniem
-   działa dużo mocniej. Kolejne opinie dodawaj jako następne `<blockquote class="quote">`
-   i usuń klasę `quotes--single` z kontenera, żeby ułożyły się w kolumny.
-   Nie dopisuj zmyślonych opinii.
+1. **Opinie** (`index.html`, sekcja `#opinie`) — dwie prawdziwe opinie: od Katarzyny
+   (5★, „makijaż ze szkoleniem", z platformy rezerwacyjnej) i z wiadomości prywatnej,
+   podpisana „Klientka · wiadomość prywatna" — bez imienia, bo nie ma zgody autorki.
+   Kolejne dodawaj jako następne `<blockquote class="quote reveal">`; siatka sama
+   rozłoży je w kolumny. Gwiazdki (`.quote__stars`) tylko tam, gdzie opinia naprawdę
+   ma ocenę. Nie dopisuj zmyślonych opinii.
 2. **Cennik** (`#cennik`) — pakiet ślubny ma realne stawki (od 500 zł za osobę,
    każda kolejna +200 zł). Kwota przy makijażu okolicznościowym (200 zł) jest nadal
    przykładowa — do podmiany albo do usunięcia na rzecz wyceny indywidualnej.
