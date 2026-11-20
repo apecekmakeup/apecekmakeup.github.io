@@ -344,6 +344,7 @@ p{margin:0 0 1.1em}
   font-family:var(--serif);font-size:4.5rem;line-height:1;color:var(--pink-200);
 }
 .quote p{position:relative;margin-bottom:1rem;font-size:1rem}
+.quote__stars{color:var(--pink-400);letter-spacing:.18em;font-size:.95rem;margin-bottom:.7rem}
 .quote cite{font-style:normal;font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--pink-500)}
 .reviews__link{text-align:center;margin:2.5rem 0 0;color:var(--muted)}
 
