@@ -47,11 +47,14 @@ Zmiana odcienia = podmiana tych zmiennych, reszta strony dostosuje się sama.
 1. **Opinie** (`index.html`, sekcja `#opinie`) — trzy karty to szablony z widocznym
    tekstem zastępczym. Wklej prawdziwe cytaty z wyróżnionej relacji „Opinie klientek”
    na Instagramie. Nie zostawiaj zmyślonych opinii.
-2. **Cennik** (`#cennik`) — kwoty (200 zł / 450 zł) są przykładowe. Podmień na realne
-   stawki albo usuń liczby i zostaw „wycena indywidualna”.
-3. **Formularz** (`assets/js/main.js`) — ustaw `MAIL_TO` na swój adres e-mail.
-   Aby zapytania wysyłały się bez otwierania poczty, załóż formularz w Formspree
-   (lub Netlify Forms) i wpisz adres do stałej `ENDPOINT`.
+2. **Cennik** (`#cennik`) — pakiet ślubny ma realne stawki (od 500 zł za osobę,
+   każda kolejna +200 zł). Kwota przy makijażu okolicznościowym (200 zł) jest nadal
+   przykładowa — do podmiany albo do usunięcia na rzecz wyceny indywidualnej.
+3. **Kontakt** — strona nie ma formularza. Sekcja „Kontakt" prowadzi do DM-a na
+   Instagramie i na adres `aleksandra.pecek01@gmail.com` (przyciski + lista kontaktów
+   w `index.html`, sekcja `#kontakt`). Adres jest też w danych strukturalnych JSON-LD.
+   Gdyby kiedyś miał wrócić formularz wysyłający zapytania bez otwierania poczty —
+   najprościej przez Formspree albo Netlify Forms.
 4. **Treści „O mnie” i FAQ** — napisane na podstawie opisu profilu; warto przeczytać
    i poprawić na własne słowa (np. lata doświadczenia, ukończone szkolenia).
 5. **Zdjęcia** — pobrane z Instagrama w rozdzielczości 640 px (tyle serwuje IG w siatce).
