@@ -335,8 +335,10 @@ p{margin:0 0 1.1em}
   position:relative;margin:0;padding:2.6rem 1.8rem 1.8rem;
   background:var(--pink-50);border:1px solid var(--line);border-radius:var(--r);
 }
-.quote--empty{border-style:dashed;border-color:var(--pink-200)}
-.quote--empty p{color:var(--muted);font-style:italic}
+.quotes--single{max-width:620px;margin-inline:auto}
+.quotes--single .quote{text-align:center;padding:3rem 2.2rem 2rem}
+.quotes--single .quote__mark{left:50%;transform:translateX(-50%)}
+.quotes--single .quote p{font-family:var(--serif);font-size:1.5rem;font-style:italic;color:var(--ink);line-height:1.4}
 .quote__mark{
   position:absolute;top:.4rem;left:1.5rem;
   font-family:var(--serif);font-size:4.5rem;line-height:1;color:var(--pink-200);
